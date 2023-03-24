@@ -1,0 +1,67 @@
+site_name: JoanCG
+theme:
+  name: material
+  favicon: images/tartesos.png
+  logo: images/tartesos.png
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.top
+    - toc.integrate
+    #- search.suggest
+    #- search.highlight
+    #- content.tabs.link
+    #- content.code.annotation
+    #- content.code.copy
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: Switch to dark mode
+      primary: teal
+      accent: blue 
+    - scheme: slate 
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode    
+      primary: teal
+      accent: lime
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/joancg
+    - icon: simple/googlescholar
+      link: https://scholar.google.com/citations?user=Ls2aJSkAAAAJ&hl=es
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/joancallegarcia
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+
+copyright: |
+  &copy; 2023 <a href="https://github.com/joancg"  target="_blank" rel="noopener">Joan Calle García</a>
+
+# Page tree
+nav:
+  - Home: index.md
+  - Deep Learning:
+    - Transformers: deep_learning/transformers.md
+    - Whisper: 
+      - Architecture: deep_learning/whisper/architecture.md
+      - Fine-tunning: deep_learning/whisper/fine-tunning.md
+  - About: about.md
