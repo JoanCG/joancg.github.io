@@ -1,0 +1,32 @@
+---
+title: "Whisper"
+author: "Joan Calle García"
+format: revealjs
+editor: visual
+---
+
+## Dummy dataset {.smaller}
+
+| canción | autor | sexo | palo | 
+| :--: | :--: | :--: | :--: |
+| | No le temblaron las manos | Juan Peña "El Lebrijano" | hombre |  |
+
+---
+
+## No le temblaron las manos {.smaller}
+*Juan Peña "El Lebrijano"*
+
+<div style="width:250px; margin:auto; position:relative;"> <audio controls> <source src="../whisper_slides_files/files/audio_test_1.wav" type="audio/wav"> </audio> </div>
+
+<br> 
+
+:::: {.columns}
+::: {.column width="50%"}
+**Original**
+:::
+
+::: {.column width="50%"}
+**Whisper**
+:::
+
+::::

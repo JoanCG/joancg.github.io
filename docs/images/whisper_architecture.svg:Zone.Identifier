@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=https://huggingface.co/blog/fine-tune-whisper
+HostUrl=https://huggingface.co/blog/assets/111_fine_tune_whisper/whisper_architecture.svg

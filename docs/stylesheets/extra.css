@@ -1,0 +1,10 @@
+figure {
+    display: table;
+}
+img, figcaption {
+    display: table-cell;
+    vertical-align: bottom;
+}
+figcaption {
+    padding-left: 4px;
+}
